@@ -1,0 +1,1 @@
+docker compose exec network nc -lk 9999

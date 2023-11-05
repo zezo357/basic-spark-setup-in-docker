@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  network:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - 9999:9999
+    volumes:
+      - ./script_in_docker.sh:/app/script_in_docker.sh
+    # network_mode: host

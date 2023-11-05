@@ -1,0 +1,1 @@
+docker compose exec network bash script_in_docker.sh
